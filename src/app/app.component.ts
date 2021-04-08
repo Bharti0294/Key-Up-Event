@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'keyUpEvent';
+
+  getValue1(i: { target: { value: any; }; }){ console.warn(i.target.value)
+  }
+  getValue2(i: any){ console.warn(i)
+  }
 }
+
